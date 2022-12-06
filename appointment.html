@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Daniel Simoes, IS117-001, Fall 2022-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content:"IS117 Project Website">
+    <meta name="author" content:"Daniel Simoes">
+    <meta name="keywords" content:"is117,njit,website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>IS117 Project - Daniel Simoes</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    
+</head>
+
+<header class="header">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">IS117 Home Improvement Services</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="reviews.html">Customer Reviews</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="services.html">Services</a>
+              <a class="dropdown-item" href="appointment.html">Appointments</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+</header>
+
+<body>
+    <div class="background">
+  <div class="row">
+    <h5>Consultation Scheduling</h5>
+    <p>Please input the date you'd be available for a consultation, along with services wanted, address, and contact information.</p> 
+  </div>
+  <div class="row">
+    <div class="col-4">
+        <label for="date-selection">Consultation Date</label>
+        <input type="date" id="date-selection" name="date-selection">
+    </div>
+    <div class="col-8">
+        <div class="row">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        <div class="row">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+    </div>
+  </div>
+  <div class="row">
+        <label for="services-requested">Services Requested</label>
+        <input type="text" id="services-requested" name="services-requested">
+
+        <button type="button" id="submission">Submit</button>
+  </div>
+  </div>
+</body>
+
+<footer class="footer">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="mb-3 mb-md-0 text-muted">&copy; IS117 Home Improvement LLC</span>
+      </div>
+      <div class="col-4" id="footer-text">
+        Terms of Use: Nothing on this website is real. This is a project website. This company is not real. Use as you wish.
+      </div>
+    </footer>
+  </div>
+</footer>

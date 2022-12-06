@@ -1,0 +1,80 @@
+#footer-text {
+    font-size: small;
+}
+
+.card-image {
+    max-width: 20em, 200px;
+    max-height: 150px;
+}
+
+.card-image-person {
+    max-height: 250px;
+    max-width: 20em;
+}
+
+#reviewer {
+    max-width: 20em;
+}
+
+.service-image {
+    width: 18em;
+    height: auto;
+    
+}
+
+#service-id {
+    width: 20em;
+    height:auto;
+    border-style: solid;
+    border-color: white;
+    fill: white;
+}
+
+.card-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.start-date {
+    max-width: 200px;
+}
+
+div {
+    padding: 10px;
+}
+
+div.background {
+    padding: 0px;
+    background-color: lightslategrey;
+}
+
+.footer {
+    padding-top: 0px;
+}
+
+.row {
+    padding: 10px;
+}
+
+#services-requested {
+    max-width: 500px;
+    height: 500px;
+}
+
+#submission {
+    max-width: 100px;
+    max-height: 30px;
+}
+
+footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
